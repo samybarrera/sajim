@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+.Content {
+
+  border-radius: 20px;
+  margin: 10px;
+	
+
+
+  
+  background-color: #111;
+  /*background-image: url(../images/ingenierias.jpg);*/
+  background-repeat: no-repeat;
+
+  
+
+
+  padding: 1px;
+  color: black;
+
+}
+
+.Content h1 {
+	font-size: 100%;
+	color: white;
+  font-family: 'Roboto Slab', serif;
+}
+
+.Content img{
+  width: 20vh;
+}
+
+.Content{
+  background-color: #111;
+}

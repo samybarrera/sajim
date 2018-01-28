@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+
+
+/////slider
+
+.Rest{
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+
+.Rest ul.slider{
+	padding: 0;
+	display: flex;
+	width: 600%;
+
+
+	animation: cambio 20s infinite alternate;
+	animation-direction: alternate;
+}
+
+.Rest-container {
+	margin: 1%;
+
+}
+
+.Rest li{
+	width: 100%;
+	list-style: none;
+}
+
+.Rest img{
+	width: 100%;
+
+}
+
+
+.w-100 {
+    width: 102%!important;
+    padding: 4rem;
+}
+
+h3, h2{
+	text-align: center;
+	color:#fff;
+}
+
+.container{
+	background-color: #111;
+	border-radius: 20px;
+}
+
