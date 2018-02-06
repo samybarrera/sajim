@@ -10,7 +10,7 @@ class Content extends Component {
       <div className="Content">
 
         
-        <img src="./images/sajim.png"/>
+        <img src="./images/logouno.png"/>
         <h1>Dorados. Policromias y Restauraciones</h1>
         
 

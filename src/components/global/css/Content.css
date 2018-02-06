@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 
 .Content {
 
   border-radius: 20px;
-  margin: 10px;
+  margin: 1px;
 	
 
 
@@ -21,15 +22,15 @@
 }
 
 .Content h1 {
-	font-size: 100%;
-	color: white;
-  font-family: 'Roboto Slab', serif;
+	font-size: 7vh;
+	color: black;
+  font-family: 'Dancing Script', cursive;
 }
 
 .Content img{
-  width: 20vh;
+  width: 80vh;
 }
 
 .Content{
-  background-color: #111;
+  background-color: #fff;
 }
