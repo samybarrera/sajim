@@ -16,9 +16,11 @@ class Body extends Component {
   	const { body } = this.props;
     return (
       <div className="Body">
+
+      
         
         {body}
-        
+       
          
       </div>
     );

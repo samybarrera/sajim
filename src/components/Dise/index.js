@@ -21,14 +21,26 @@ class Dise extends Component {
 		return (
 				<div className="container">
 
-				<img className="d-block w-100" src="./images/grecavintage2.png" alt="First slide" />
+				<div className="container-fondotitle">
+				<img className="title d-block-center" src="./images/fondoDISE.png"/>
+
+				</div>
+
+
+				<img className="d-block w-100" src="./images/arriba.png" alt="First slide" />
 
 				<h3> Diseño y Elaboracion Religiosa </h3>
 
 				<h2>Dorados y policromias</h2>
+				<div className="container-caroucel">
 
 
 				  <Carousel />
+				  </div>
+				  <img className="d-block w-100" src="./images/abajo.png" alt="First slide" />
+
+
+				  
 				</div>
 			);
 		

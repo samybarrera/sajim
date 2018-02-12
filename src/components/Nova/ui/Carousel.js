@@ -4,6 +4,7 @@ import React from 'react';
 const Carousel = () =>{
 	return(
 			<div>
+			
 				<div id="carouselExampleIndicators" className="carousel slide rounded mx-auto d-block" data-ride="carousel">
 				  <ol className="carousel-indicators">
 				    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -39,6 +40,7 @@ const Carousel = () =>{
 				    <span className="sr-only">Next</span>
 				  </a>
 				</div>
+			
 			</div>
 
 		);

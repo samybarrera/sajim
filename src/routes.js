@@ -14,6 +14,9 @@ import Rest from './components/Rest';
 import Dise from './components/Dise';
 
 
+//proyectos de restauracion
+
+
 
 
 const AppRoutes = () =>
@@ -24,7 +27,7 @@ const AppRoutes = () =>
  	  <Route path="/Nova" component={Nova} />
  	  <Route path="/Rest" component={Rest} />
       <Route path="/Home" component={Home} />
-      <Route component={Page404} />
+      <Route path="/" component={Page404} />
  	</Switch>
  </App>;
 

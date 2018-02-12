@@ -31,7 +31,7 @@ class App extends Component {
         <Barra items={items} />
         <Body body={children} />
         
-        <Footer copyright="&copy; 2018 SAJIM. Todos los derechos reservados." />
+        <Footer copyright="&copy; 2018 SANCORA. Todos los derechos reservados." />
       </div>
     );
   }
