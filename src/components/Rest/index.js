@@ -1,21 +1,27 @@
 //Dependencies
 import React, { Component } from 'react';
 
-
+import PropTypes from 'prop-types';
 //components
 
 //import Opciones from '../global/Opciones';
 
 
+
 //data
 //import items from '../data/opcionesmenu';
+
+import BarraRest from './restGlobal/BarraRest';
 
 
 
 //assets
 import './styles.css';
 import Carousel from './ui/Carousel';
-import Carousel2 from './ui/Carousel2';
+
+//data
+import items from '../../data/menuRest';
+
 
 class Rest extends Component {
 
@@ -31,13 +37,17 @@ class Rest extends Component {
 
 				</div>
 
+				<BarraRest items={items} />
+
+				
+
 
 				
 
 				<img className="d-block w-100" src="./images/arriba.png" alt="First slide" />
 				
 
-				<h3> Restauraciones Religiosas</h3>
+				<h3> Nicho Oaxaca</h3>
 
 				<h2>Dorados y policromias</h2>
 				
@@ -49,20 +59,7 @@ class Rest extends Component {
 
 
 
-				<img className="d-block w-100" src="./images/arriba.png" alt="First slide" />
 				
-
-				<h3> Restauraciones Religiosas</h3>
-
-				<h2>Dorados y policromias</h2>
-				
-
-
-				  <Carousel2 />
-				  
-				  <img className="d-block w-100" src="./images/abajo.png" alt="First slide" />
-
-
 
 
 

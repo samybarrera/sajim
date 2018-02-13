@@ -1,9 +1,10 @@
 import React from 'react';
 
 
-const Carousel2 = () =>{
+const Carousel = () =>{
 	return(
 			<div>
+			
 				<div id="carouselExampleIndicators" className="carousel slide rounded mx-auto d-block" data-ride="carousel">
 				  <ol className="carousel-indicators">
 				    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -12,23 +13,25 @@ const Carousel2 = () =>{
 				  </ol>
 				  <div className="carousel-inner">
 				    <div className="carousel-item active">
-				      <img className="d-block w-100" src="./images/diseñoyelaboracion/hidalgo/imagen1.png" alt="First slide" />
+				      <img className="d-block w-100" src="./images/renovaciones/nichoyoso/imagen1.png" alt="First slide" />
 				    </div>
 				    <div className="carousel-item">
-				      <img className="d-block w-100" src="./images/diseñoyelaboracion/hidalgo/imagen2.png" alt="Second slide" />
+				      <img className="d-block w-100" src="./images/renovaciones/nichoyoso/imagen2.png" alt="Second slide" />
 				    </div>
 				    <div className="carousel-item">
-				      <img className="d-block w-100" src="./images/diseñoyelaboracion/hidalgo/imagen3.png" alt="Third slide" />
+				      <img className="d-block w-100" src="./images/renovaciones/nichoyoso/imagen3.png" alt="Third slide" />
 				    </div>
 				    <div className="carousel-item">
-				      <img className="d-block w-100" src="./images/diseñoyelaboracion/hidalgo/imagen4.png" alt="Third slide" />
+				      <img className="d-block w-100" src="./images/renovaciones/nichoyoso/imagen4.png" alt="Third slide" />
 				    </div>
 				    <div className="carousel-item">
-				      <img className="d-block w-100" src="./images/diseñoyelaboracion/hidalgo/imagen5.png" alt="Third slide" />
+				      <img className="d-block w-100" src="./images/renovaciones/nichoyoso/imagen5.png" alt="Third slide" />
 				    </div>
 				    <div className="carousel-item">
-				      <img className="d-block w-100" src="./images/diseñoyelaboracion/hidalgo/imagen6.png" alt="Third slide" />
+				      <img className="d-block w-100" src="./images/renovaciones/nichoyoso/imagen6.png" alt="Third slide" />
 				    </div>
+				
+				   
 				  </div>
 				  <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 				    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -39,10 +42,11 @@ const Carousel2 = () =>{
 				    <span className="sr-only">Next</span>
 				  </a>
 				</div>
+			
 			</div>
 
 		);
 
 };
 
-export default Carousel2;
+export default Carousel;

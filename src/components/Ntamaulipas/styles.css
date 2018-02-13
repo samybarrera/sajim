@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
-
-
-
+*{
+	margin: 0;
+	padding: 0;
+}
 /////slider
-
-
 
 .Rest{
 	width: 100%;
@@ -49,32 +48,7 @@ h3, h2{
 	color:#fff;
 }
 
-
-
 .container{
-	background-image: url(/images/358389_ampliada.png);
-	background-color: ;
+	background-color: #111;
 	border-radius: 20px;
 }
-
-.container-caroucel{
-	
-	background-color: ;
-	border-radius: 0px;
-	background-repeat: no-repeat;
-}
-
-.container-fondotitle{
-	text-align: center;
-	
-	background-color: ;
-	
-	background-repeat: no-repeat;
-}
-
-.title {
-	padding-top: 10px;
-	border-radius: 400px;
-}
-
-
